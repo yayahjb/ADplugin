@@ -96,7 +96,7 @@ version of python, it is helpful to have a system installation of Python 2.7.9.
 See https://www.python.org/downloads/release/python-279/
 
 4.  PyMOL 1.7:  The plugin is a plugin for the PyMOL molecular visualization
-program PyMOL developed by the late Warren Delano and not maintained by
+program PyMOL developed by the late Warren Delano and now maintained by
 Schrodinger LLC.  See http://www.pymol.org for the Schrodinger-supported version.
 See http://sourceforge.net/projects/pymol/, http://www.pymolwiki.org,
 http://www.pymolwiki.org/index.php/Windows_Install,
