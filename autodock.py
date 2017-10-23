@@ -41,7 +41,7 @@ import tkMessageBox, tkFileDialog
 import Pmw
 from threading import Thread
 #from commands import getstatusoutput
-from pymol import cmd,selector
+from pymol import cmd,selector,plugins
 from pymol.cmd import _feedback,fb_module,fb_mask,is_list,_cmd
 from pymol.cgo import *
 from pymol import stored
@@ -117,7 +117,8 @@ def __init__(self):
 #
 #     SOME BASIC THINGIES
 #
-
+app = plugins.get_pmgapp()
+root = plugins.get_tk_root()
 global_status = StringVar()
 global_status.set("")
 transfer_status = {}
